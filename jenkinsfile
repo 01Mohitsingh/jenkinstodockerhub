@@ -22,7 +22,7 @@ pipeline {
         """
       }
     }
-    stage ('running ner container') {
+    stage ('running new container') {
       steps {
         sh """
           echo 'creating new container'
